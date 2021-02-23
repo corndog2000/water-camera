@@ -1,0 +1,11 @@
+iframe {
+  height: 576px;
+  width: 1024px;
+  resize: both;
+  overflow: auto;
+}
+
+input[type="submit" i] {
+  width: fit-content;
+  height: 50px;
+}

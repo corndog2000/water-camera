@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+
+<h2>Click to turn <font color="green">ON</font> lights and camera.</h2>
+
+<form action="lights_on.php">
+    <input type="submit" value="Lights ON">
+</form>
+
+<h2>Click to turn <font color="red">OFF</font> lights and camera.</h2>
+
+<form action="lights_off.php">
+    <input type="submit" value="Lights OFF">
+</form>
+
+<br></br>
+
+<div class="container">
+    <iframe class="iframe-class" src="http://192.168.1.70:8080/?action=stream"></iframe>
+</div>
+
+<h2>Click to REBOOT the device if the video is messed up. Then refresh this webpage in 1 to 2 minutes.</h2>
+
+<form action="reboot.php">
+    <input type="submit" value="REBOOT">
+</form>
+
+</body>
+</html>
+
